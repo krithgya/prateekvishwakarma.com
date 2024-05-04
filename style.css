@@ -1,0 +1,232 @@
+
+body {
+    font-family: 'Poppins', sans-serif;   
+}
+
+head{
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    position: fixed;
+    width: 1010px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vw 8vw;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    background-color: rgb(30, 123, 114);
+    background-position: cover;
+}
+
+nav img{
+    height: 70px;
+    cursor: pointer;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-width: 2px;
+    border-color: blue;
+}
+
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .navigation ul li{
+    list-style-type: none;
+    margin-left: 30px;
+   margin-top: 20px;
+   font-family: Helvetica;
+}
+
+nav .navigation ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+nav .navigation ul li a:hover{
+    color: rgb(31, 152, 196);
+}
+
+#B1 img{
+    height: 450px;
+    width: auto;
+    border-width: 9px;
+    border-color: rgb(180, 81, 15);
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-style:groove;
+    float: right;
+    margin-right: 70px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: horizontal;
+    justify-content: space-between;
+}
+
+
+#B1{
+    background-image:linear-gradient(rgba(103, 98, 153, 0.012), rgba(74, 73, 146, 0.606)),url(bg1.PNG);
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    text-align: center;
+    padding-top:40px;
+}
+
+#B1 h1{
+    color: rgb(17, 39, 209);
+    font-size: 80px;
+    align-items: left;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#B2{
+    background-image:linear-gradient(rgba(103, 98, 153, 0.012), rgba(74, 73, 146, 0.606)),url(bg2.PNG);
+    width: 100%;
+    height: fit-content;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top:40px;
+    
+}
+#img1{
+    height: 490px;
+    width: auto;
+    border-color: rgb(180, 81, 15);
+    border-radius: 500px;
+    border-style:groove;
+    float: right;
+    margin-left: 70px;
+}
+
+#img2{
+    height: 490px;
+    width: auto;
+    border-color: rgb(180, 81, 15);
+    border-radius: 500px;
+    border-style:groove;
+    float: right;
+    margin-right: 70px;
+}
+
+#B2 .fea-box{
+    text-align: center;
+    background-color: rgb(157, 160, 162);
+    border-radius: 50px;
+    height: fit-content;
+    width: 500px;
+    align-self: center;
+}
+
+#B2 .fea-box h2{
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(45, 45, 107);
+}
+
+#B2 h1{
+    color: rgb(17, 39, 209);
+    font-size: 70px;
+    align-items: center;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#B2 hr{
+    border-width: 3px;
+    border-color: blueviolet;
+    width: 1000px;
+}
+
+#B3{
+    background-image:linear-gradient(rgba(103, 98, 153, 0.012), rgba(74, 73, 146, 0.606)),url(bg3.PNG);
+    width: 100%;
+    height: fit-content;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top:40px; 
+}
+
+#B3 .fea-box{
+    background-color: blueviolet;
+    border-radius: 5px;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#B3 img{
+    height: 280px;
+    width: auto;
+    border-radius: 500px;
+}
+
+#B3 hr{
+    border-width: 3px;
+    border-color: blueviolet;
+    width: 1000px;
+}
+
+#B3 h1{
+    color: rgb(17, 39, 209);
+    font-size: 70px;
+    align-items: left;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#B3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+footer{
+    align-items: center;
+    text-align: center;
+    padding: 8vw;
+    background-color: rgb(58, 57, 57);
+}
+
+footer .foot-col{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
